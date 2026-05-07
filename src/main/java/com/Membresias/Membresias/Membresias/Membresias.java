@@ -9,15 +9,15 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "Membrecia")
+@Table(name = "Membresia")
 
 public class Membresias {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private String id;
+    private Long id;
 
     @Column(nullable = false)
-    private String tipo_Plan;
+    private String tipoPlan;
 
     @Column(nullable = false)
     private String beneficio;
