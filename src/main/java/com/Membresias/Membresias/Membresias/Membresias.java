@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Membresias {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long idMembresia;
 
     @Column(nullable = false)
     private String tipoPlan;

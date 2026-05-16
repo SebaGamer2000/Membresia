@@ -23,9 +23,9 @@ public class MembresiaController {
         return ResponseEntity.ok(membresiaService.findAll());
     }
 
-    @GetMapping("{id}")
-    public ResponseEntity<MembresiaResponseDTO> findById(@PathVariable Long id){
-        return membresiaService.findById(id).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
+    @GetMapping("{idMembresia}")
+    public ResponseEntity<MembresiaResponseDTO> findById(@PathVariable Long idMembresia){
+        return membresiaService.findById(idMembresia).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping
@@ -34,19 +34,19 @@ public class MembresiaController {
             ){
         return ResponseEntity.status(201).body(membresiaService.guardar(dto));
     }
-    @PutMapping("{id}")
+    @PutMapping("{idMembresia}")
     public ResponseEntity<MembresiaResponseDTO> actualizar(
-            @PathVariable Long id, @Valid @RequestBody MembresiaRequestDto dto
+            @PathVariable Long idMembresia, @Valid @RequestBody MembresiaRequestDto dto
     ){
-        return membresiaService.actualizar(id, dto).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
+        return membresiaService.actualizar(idMembresia, dto).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
-    @DeleteMapping("{id}")
-    public ResponseEntity<Void> eliminar(@PathVariable Long id){
-        if (membresiaService.findById(id).isEmpty()){
+    @DeleteMapping("{idMembresia}")
+    public ResponseEntity<Void> eliminar(@PathVariable Long idMembresia){
+        if (membresiaService.findById(idMembresia).isEmpty()){
             return ResponseEntity.notFound().build();
         }
-        membresiaService.eliminar(id);
+        membresiaService.eliminar(idMembresia);
         return ResponseEntity.noContent().build();
     }
     }

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MembresiaResponseDTO {
-    private Long id;
+    private Long idMembresia;
     private String tipoPlan;
     private String beneficio;
     private Integer precio;

@@ -19,7 +19,7 @@ public class MembresiaService {
 
     private MembresiaResponseDTO maptoDTO(Membresias membresias){
         return new MembresiaResponseDTO(
-                membresias.getId(),
+                membresias.getIdMembresia(),
                 membresias.getTipoPlan(),
                 membresias.getBeneficio(),
                 membresias.getPrecio()
@@ -29,8 +29,8 @@ public class MembresiaService {
         return membresiaRepository.findAll().stream().map(this::maptoDTO).collect(Collectors.toList());
     }
 
-    public Optional<MembresiaResponseDTO> findById(Long id){
-        return membresiaRepository.findById(id).map(this::maptoDTO);
+    public Optional<MembresiaResponseDTO> findById(Long idMembresia){
+        return membresiaRepository.findById(idMembresia).map(this::maptoDTO);
     }
 
     public MembresiaResponseDTO guardar(MembresiaRequestDto dto){
@@ -43,14 +43,14 @@ public class MembresiaService {
         return maptoDTO(membresiaRepository.save(membresias));
     }
 
-    public Optional<MembresiaResponseDTO> actualizar(Long id, MembresiaRequestDto dto){
-        return membresiaRepository.findById(id).map(existente ->{
+    public Optional<MembresiaResponseDTO> actualizar(Long idMembresia, MembresiaRequestDto dto){
+        return membresiaRepository.findById(idMembresia).map(existente ->{
             existente.setTipoPlan(dto.getTipoPlan());
             existente.setBeneficio(dto.getBeneficio());
             existente.setPrecio(dto.getPrecio());
             return maptoDTO(membresiaRepository.save(existente));
         });
     }
-    public void eliminar(Long id){membresiaRepository.deleteById(id);}
+    public void eliminar(Long idMembresia){membresiaRepository.deleteById(idMembresia);}
 
 }
