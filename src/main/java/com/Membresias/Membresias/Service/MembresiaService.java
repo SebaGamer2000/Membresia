@@ -5,6 +5,8 @@ import com.Membresias.Membresias.Repository.MembresiaRepository;
 import com.Membresias.Membresias.dto.MembresiaRequestDto;
 import com.Membresias.Membresias.dto.MembresiaResponseDTO;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,6 +18,7 @@ import java.util.stream.Collectors;
 public class MembresiaService {
 
     private final MembresiaRepository membresiaRepository;
+    private static final Logger log = LoggerFactory.getLogger(MembresiaService.class);
 
     private MembresiaResponseDTO maptoDTO(Membresias membresias){
         return new MembresiaResponseDTO(
@@ -34,23 +37,29 @@ public class MembresiaService {
     }
 
     public MembresiaResponseDTO guardar(MembresiaRequestDto dto){
+        log.info("Guardando usuario");
         Membresias membresias = new Membresias(
                 null,
                 dto.getTipoPlan(),
                 dto.getBeneficio(),
                 dto.getPrecio()
         );
+        log.info("Membresia guardada");
         return maptoDTO(membresiaRepository.save(membresias));
     }
 
     public Optional<MembresiaResponseDTO> actualizar(Long idMembresia, MembresiaRequestDto dto){
+        log.info("Actualizando membresia...");
         return membresiaRepository.findById(idMembresia).map(existente ->{
             existente.setTipoPlan(dto.getTipoPlan());
             existente.setBeneficio(dto.getBeneficio());
             existente.setPrecio(dto.getPrecio());
+            log.info("Membresia actualizada");
             return maptoDTO(membresiaRepository.save(existente));
         });
     }
-    public void eliminar(Long idMembresia){membresiaRepository.deleteById(idMembresia);}
+    public void eliminar(Long idMembresia){membresiaRepository.deleteById(idMembresia);}{
+        log.info("Membresia eliminada");
+    }
 
 }

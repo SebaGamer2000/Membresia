@@ -23,7 +23,7 @@ public class DataInitializer implements CommandLineRunner {
 
         log.info("No hay datos guardados, creando datos");
 
-        membresiaRepository.save(
+      /*  membresiaRepository.save(
                 new Membresias(null, "Mensual", "Acceso mensual", 10990)
         );
 
@@ -33,6 +33,6 @@ public class DataInitializer implements CommandLineRunner {
 
         membresiaRepository.save(
                 new Membresias(null, "Anual", "Acceso completo anual", 99990)
-        );
+        );*/
     }
 }

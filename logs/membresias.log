@@ -1,0 +1,92 @@
+2026-05-17T19:46:46.000-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Starting MembresiasApplication using Java 21.0.10 with PID 18104 (C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias\target\classes started by sebit in C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias)
+2026-05-17T19:46:46.010-04:00 DEBUG 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-17T19:46:46.014-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-17T19:46:49.673-04:00  INFO 18104 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-17T19:46:50.701-04:00  INFO 18104 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 953 ms. Found 1 JPA repository interface.
+2026-05-17T19:46:51.718-04:00  INFO 18104 --- [Membresias] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8974baf3-0add-354a-b5d1-c099f9c3dafb
+2026-05-17T19:46:53.428-04:00  INFO 18104 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-05-17T19:46:53.486-04:00  INFO 18104 --- [Membresias] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-17T19:46:53.487-04:00  INFO 18104 --- [Membresias] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-17T19:46:53.793-04:00  INFO 18104 --- [Membresias] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7589 ms
+2026-05-17T19:46:54.487-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-17T19:46:54.712-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-17T19:46:56.249-04:00  INFO 18104 --- [Membresias] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-17T19:46:56.356-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-17T19:46:56.823-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65b5b5ed
+2026-05-17T19:46:56.828-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-17T19:46:56.955-04:00  WARN 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-05-17T19:46:56.964-04:00  WARN 18104 --- [Membresias] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-17T19:46:57.021-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/membresias_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: membresias_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-17T19:47:00.432-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-17T19:47:00.856-04:00  INFO 18104 --- [Membresias] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-17T19:47:01.181-04:00  INFO 18104 --- [Membresias] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-17T19:47:01.457-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.Service.MembresiaService  : Membresia eliminada
+2026-05-17T19:47:01.579-04:00  WARN 18104 --- [Membresias] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-17T19:47:03.494-04:00  INFO 18104 --- [Membresias] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-05-17T19:47:03.645-04:00  WARN 18104 --- [Membresias] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-17T19:47:03.721-04:00  INFO 18104 --- [Membresias] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-17T19:47:03.837-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-17T19:47:03.851-04:00  INFO 18104 --- [Membresias] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T19:47:03.879-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-17T19:47:03.880-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-17T19:47:05.099-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-17T19:47:05.107-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-17T19:47:05.116-04:00  INFO 18104 --- [Membresias] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-17T19:47:05.124-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779061625120 with initial instances count: 1
+2026-05-17T19:47:05.134-04:00  INFO 18104 --- [Membresias] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMBRESIAS with eureka with status UP
+2026-05-17T19:47:05.136-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779061625136, current=UP, previous=STARTING]
+2026-05-17T19:47:05.142-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
+2026-05-17T19:47:05.212-04:00  INFO 18104 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-05-17T19:47:05.216-04:00  INFO 18104 --- [Membresias] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-05-17T19:47:05.251-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Started MembresiasApplication in 21.311 seconds (process running for 23.834)
+2026-05-17T19:47:05.330-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
+2026-05-17T19:47:06.612-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.config.DataInitializer    : Datos cargados
+2026-05-17T19:52:03.958-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T19:55:07.770-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-17T19:55:07.785-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-17T19:55:07.930-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 143 ms
+2026-05-17T19:55:08.689-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] c.M.Membresias.Service.MembresiaService  : Guardando usuario
+2026-05-17T19:55:08.690-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] c.M.Membresias.Service.MembresiaService  : Membresia guardada
+2026-05-17T19:56:14.003-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-6] c.M.Membresias.Service.MembresiaService  : Actualizando membresia...
+2026-05-17T19:56:14.009-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-6] c.M.Membresias.Service.MembresiaService  : Membresia actualizada
+2026-05-17T19:56:50.304-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-3] c.M.Membresias.Service.MembresiaService  : Guardando usuario
+2026-05-17T19:56:50.305-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-3] c.M.Membresias.Service.MembresiaService  : Membresia guardada
+2026-05-17T19:57:04.055-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:02:04.080-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:07:04.119-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:12:04.136-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:17:04.157-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:22:04.178-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:27:04.209-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:32:04.233-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:37:04.264-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:42:04.277-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-17T20:43:28.089-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMBRESIAS with eureka with status DOWN
+2026-05-17T20:43:28.094-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779065008094, current=DOWN, previous=UP]
+2026-05-17T20:43:28.096-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
+2026-05-17T20:43:28.308-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
+2026-05-17T20:43:28.431-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-17T20:43:28.532-04:00  INFO 18104 --- [Membresias] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-17T20:43:28.623-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-17T20:43:28.736-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-17T20:43:28.778-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-17T20:43:28.786-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-05-17T20:43:31.805-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-05-17T20:43:31.876-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - deregister  status: 200
+2026-05-17T20:43:31.879-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
