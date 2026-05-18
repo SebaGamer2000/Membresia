@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class DataInitializer implements CommandLineRunner {
 
     private final MembresiaRepository membresiaRepository;
-
+    //Mensajes que muestran en terminal si hay datos guardados
     @Override
     public void run(String... args){
         if(membresiaRepository.count() > 0){
@@ -22,7 +22,7 @@ public class DataInitializer implements CommandLineRunner {
         }
 
         log.info("No hay datos guardados, creando datos");
-
+    //Datos de prueba
       /*  membresiaRepository.save(
                 new Membresias(null, "Mensual", "Acceso mensual", 10990)
         );

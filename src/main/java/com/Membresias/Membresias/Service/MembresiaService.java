@@ -28,14 +28,15 @@ public class MembresiaService {
                 membresias.getPrecio()
         );
     }
+    //Lista todas las membresias
     public List<MembresiaResponseDTO> findAll(){
         return membresiaRepository.findAll().stream().map(this::maptoDTO).collect(Collectors.toList());
     }
-
+    //Encuentra una membresia usando su ID
     public Optional<MembresiaResponseDTO> findById(Long idMembresia){
         return membresiaRepository.findById(idMembresia).map(this::maptoDTO);
     }
-
+    //Crea y guarda una membresia
     public MembresiaResponseDTO guardar(MembresiaRequestDto dto){
         log.info("Guardando usuario");
         Membresias membresias = new Membresias(
@@ -47,7 +48,7 @@ public class MembresiaService {
         log.info("Membresia guardada");
         return maptoDTO(membresiaRepository.save(membresias));
     }
-
+    //Actualiza las membresias
     public Optional<MembresiaResponseDTO> actualizar(Long idMembresia, MembresiaRequestDto dto){
         log.info("Actualizando membresia...");
         return membresiaRepository.findById(idMembresia).map(existente ->{
@@ -58,6 +59,7 @@ public class MembresiaService {
             return maptoDTO(membresiaRepository.save(existente));
         });
     }
+    //Elimina las membresias
     public void eliminar(Long idMembresia){membresiaRepository.deleteById(idMembresia);}{
         log.info("Membresia eliminada");
     }
