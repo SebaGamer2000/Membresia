@@ -1,22 +1,22 @@
-2026-05-17T19:46:46.000-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Starting MembresiasApplication using Java 21.0.10 with PID 18104 (C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias\target\classes started by sebit in C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias)
-2026-05-17T19:46:46.010-04:00 DEBUG 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-05-17T19:46:46.014-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : No active profile set, falling back to 1 default profile: "default"
-2026-05-17T19:46:49.673-04:00  INFO 18104 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-17T19:46:50.701-04:00  INFO 18104 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 953 ms. Found 1 JPA repository interface.
-2026-05-17T19:46:51.718-04:00  INFO 18104 --- [Membresias] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8974baf3-0add-354a-b5d1-c099f9c3dafb
-2026-05-17T19:46:53.428-04:00  INFO 18104 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-05-17T19:46:53.486-04:00  INFO 18104 --- [Membresias] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-17T19:46:53.487-04:00  INFO 18104 --- [Membresias] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-05-17T19:46:53.793-04:00  INFO 18104 --- [Membresias] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7589 ms
-2026-05-17T19:46:54.487-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-17T19:46:54.712-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-05-17T19:46:56.249-04:00  INFO 18104 --- [Membresias] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-17T19:46:56.356-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-17T19:46:56.823-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65b5b5ed
-2026-05-17T19:46:56.828-04:00  INFO 18104 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-17T19:46:56.955-04:00  WARN 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-05-17T19:46:56.964-04:00  WARN 18104 --- [Membresias] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-05-17T19:46:57.021-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-11T22:48:47.445-04:00  INFO 7712 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Starting MembresiasApplication using Java 21.0.10 with PID 7712 (C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias\target\classes started by sebit in C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias)
+2026-06-11T22:48:47.459-04:00 DEBUG 7712 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-11T22:48:47.461-04:00  INFO 7712 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-06-11T22:48:49.104-04:00  INFO 7712 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-11T22:48:49.400-04:00  INFO 7712 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 275 ms. Found 1 JPA repository interface.
+2026-06-11T22:48:49.863-04:00  INFO 7712 --- [Membresias] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8974baf3-0add-354a-b5d1-c099f9c3dafb
+2026-06-11T22:48:50.625-04:00  INFO 7712 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-06-11T22:48:50.656-04:00  INFO 7712 --- [Membresias] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T22:48:50.657-04:00  INFO 7712 --- [Membresias] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-11T22:48:50.797-04:00  INFO 7712 --- [Membresias] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3235 ms
+2026-06-11T22:48:51.185-04:00  INFO 7712 --- [Membresias] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-11T22:48:51.323-04:00  INFO 7712 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-11T22:48:52.312-04:00  INFO 7712 --- [Membresias] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-11T22:48:52.366-04:00  INFO 7712 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-11T22:48:52.627-04:00  INFO 7712 --- [Membresias] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a2755e
+2026-06-11T22:48:52.629-04:00  INFO 7712 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-11T22:48:52.694-04:00  WARN 7712 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-06-11T22:48:52.699-04:00  WARN 7712 --- [Membresias] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-11T22:48:52.730-04:00  INFO 7712 --- [Membresias] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/membresias_db]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -28,513 +28,53 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-17T19:47:00.432-04:00  INFO 18104 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-17T19:47:00.856-04:00  INFO 18104 --- [Membresias] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T19:47:01.181-04:00  INFO 18104 --- [Membresias] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-17T19:47:01.457-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.Service.MembresiaService  : Membresia eliminada
-2026-05-17T19:47:01.579-04:00  WARN 18104 --- [Membresias] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-17T19:47:03.494-04:00  INFO 18104 --- [Membresias] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
-2026-05-17T19:47:03.645-04:00  WARN 18104 --- [Membresias] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2026-05-17T19:47:03.721-04:00  INFO 18104 --- [Membresias] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2026-05-17T19:47:03.837-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2026-05-17T19:47:03.851-04:00  INFO 18104 --- [Membresias] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T19:47:03.879-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-17T19:47:03.880-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2026-05-17T19:47:03.881-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-17T19:47:05.099-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-17T19:47:05.107-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2026-05-17T19:47:05.116-04:00  INFO 18104 --- [Membresias] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2026-05-17T19:47:05.124-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779061625120 with initial instances count: 1
-2026-05-17T19:47:05.134-04:00  INFO 18104 --- [Membresias] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMBRESIAS with eureka with status UP
-2026-05-17T19:47:05.136-04:00  INFO 18104 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779061625136, current=UP, previous=STARTING]
-2026-05-17T19:47:05.142-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T19:47:05.212-04:00  INFO 18104 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-05-17T19:47:05.216-04:00  INFO 18104 --- [Membresias] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
-2026-05-17T19:47:05.251-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Started MembresiasApplication in 21.311 seconds (process running for 23.834)
-2026-05-17T19:47:05.330-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
-2026-05-17T19:47:06.612-04:00  INFO 18104 --- [Membresias] [main] c.M.Membresias.config.DataInitializer    : Datos cargados
-2026-05-17T19:52:03.958-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T19:55:07.770-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-17T19:55:07.785-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-17T19:55:07.930-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 143 ms
-2026-05-17T19:55:08.689-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] c.M.Membresias.Service.MembresiaService  : Guardando usuario
-2026-05-17T19:55:08.690-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-1] c.M.Membresias.Service.MembresiaService  : Membresia guardada
-2026-05-17T19:56:14.003-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-6] c.M.Membresias.Service.MembresiaService  : Actualizando membresia...
-2026-05-17T19:56:14.009-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-6] c.M.Membresias.Service.MembresiaService  : Membresia actualizada
-2026-05-17T19:56:50.304-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-3] c.M.Membresias.Service.MembresiaService  : Guardando usuario
-2026-05-17T19:56:50.305-04:00  INFO 18104 --- [Membresias] [http-nio-8082-exec-3] c.M.Membresias.Service.MembresiaService  : Membresia guardada
-2026-05-17T19:57:04.055-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:02:04.080-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:07:04.119-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:12:04.136-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:17:04.157-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:22:04.178-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:27:04.209-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:32:04.233-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:37:04.264-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:42:04.277-04:00  INFO 18104 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T20:43:28.089-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMBRESIAS with eureka with status DOWN
-2026-05-17T20:43:28.094-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779065008094, current=DOWN, previous=UP]
-2026-05-17T20:43:28.096-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T20:43:28.308-04:00  INFO 18104 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
-2026-05-17T20:43:28.431-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-17T20:43:28.532-04:00  INFO 18104 --- [Membresias] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-17T20:43:28.623-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T20:43:28.736-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-17T20:43:28.778-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-17T20:43:28.786-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2026-05-17T20:43:31.805-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2026-05-17T20:43:31.876-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - deregister  status: 200
-2026-05-17T20:43:31.879-04:00  INFO 18104 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2026-05-17T21:38:52.322-04:00  INFO 16484 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Starting MembresiasApplication using Java 21.0.10 with PID 16484 (C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias\target\classes started by sebit in C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias)
-2026-05-17T21:38:52.327-04:00 DEBUG 16484 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-05-17T21:38:52.329-04:00  INFO 16484 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : No active profile set, falling back to 1 default profile: "default"
-2026-05-17T21:38:53.976-04:00  INFO 16484 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-17T21:38:54.321-04:00  INFO 16484 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 326 ms. Found 1 JPA repository interface.
-2026-05-17T21:38:54.740-04:00  INFO 16484 --- [Membresias] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8974baf3-0add-354a-b5d1-c099f9c3dafb
-2026-05-17T21:38:55.485-04:00  INFO 16484 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-05-17T21:38:55.512-04:00  INFO 16484 --- [Membresias] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-17T21:38:55.512-04:00  INFO 16484 --- [Membresias] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-05-17T21:38:55.657-04:00  INFO 16484 --- [Membresias] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3230 ms
-2026-05-17T21:38:56.038-04:00  INFO 16484 --- [Membresias] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-17T21:38:56.192-04:00  INFO 16484 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-05-17T21:38:57.219-04:00  INFO 16484 --- [Membresias] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-17T21:38:57.274-04:00  INFO 16484 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-17T21:38:57.534-04:00  INFO 16484 --- [Membresias] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1174676f
-2026-05-17T21:38:57.537-04:00  INFO 16484 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-17T21:38:57.592-04:00  WARN 16484 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-05-17T21:38:57.598-04:00  WARN 16484 --- [Membresias] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-05-17T21:38:57.627-04:00  INFO 16484 --- [Membresias] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/membresias_db]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.5.5
-	Default catalog/schema: membresias_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-17T21:38:58.886-04:00  INFO 16484 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-17T21:38:58.991-04:00  INFO 16484 --- [Membresias] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T21:38:59.145-04:00  INFO 16484 --- [Membresias] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-17T21:38:59.311-04:00  INFO 16484 --- [Membresias] [main] c.M.Membresias.Service.MembresiaService  : Membresia eliminada
-2026-05-17T21:38:59.398-04:00  WARN 16484 --- [Membresias] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-17T21:39:00.418-04:00  INFO 16484 --- [Membresias] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
-2026-05-17T21:39:00.499-04:00  WARN 16484 --- [Membresias] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2026-05-17T21:39:00.542-04:00  INFO 16484 --- [Membresias] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2026-05-17T21:39:00.603-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2026-05-17T21:39:00.610-04:00  INFO 16484 --- [Membresias] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T21:39:00.635-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-17T21:39:00.636-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-17T21:39:00.636-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-17T21:39:00.636-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-17T21:39:00.636-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-17T21:39:00.637-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2026-05-17T21:39:00.637-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-17T21:39:01.553-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-17T21:39:01.555-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2026-05-17T21:39:01.559-04:00  INFO 16484 --- [Membresias] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2026-05-17T21:39:01.563-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779068341561 with initial instances count: 0
-2026-05-17T21:39:01.569-04:00  INFO 16484 --- [Membresias] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMBRESIAS with eureka with status UP
-2026-05-17T21:39:01.570-04:00  INFO 16484 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779068341570, current=UP, previous=STARTING]
-2026-05-17T21:39:01.574-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T21:39:01.603-04:00  INFO 16484 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-05-17T21:39:01.605-04:00  INFO 16484 --- [Membresias] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
-2026-05-17T21:39:01.620-04:00  INFO 16484 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Started MembresiasApplication in 10.271 seconds (process running for 11.626)
-2026-05-17T21:39:01.817-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
-2026-05-17T21:39:02.412-04:00  INFO 16484 --- [Membresias] [main] c.M.Membresias.config.DataInitializer    : Datos cargados
-2026-05-17T21:39:31.558-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-17T21:39:31.559-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-17T21:39:31.560-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-17T21:39:31.560-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-17T21:39:31.560-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-17T21:39:31.560-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2026-05-17T21:39:31.561-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-17T21:39:31.603-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-17T21:39:51.956-04:00  INFO 16484 --- [Membresias] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-17T21:39:51.957-04:00  INFO 16484 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-17T21:39:51.960-04:00  INFO 16484 --- [Membresias] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-05-17T21:44:00.652-04:00  INFO 16484 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T21:49:00.664-04:00  INFO 16484 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T21:53:56.716-04:00  INFO 16484 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T21:54:08.634-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMBRESIAS with eureka with status DOWN
-2026-05-17T21:54:08.634-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779069248634, current=DOWN, previous=UP]
-2026-05-17T21:54:08.634-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T21:54:08.722-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-17T21:54:08.762-04:00  INFO 16484 --- [Membresias] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-17T21:54:08.789-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:779)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:624)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:572)
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:747)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:924)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:888)
-	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.register(RestClientEurekaHttpClient.java:64)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequestAndBody(AbstractBufferingClientHttpRequest.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
-	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
-	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:614)
-	... 23 more
-
-2026-05-17T21:54:08.792-04:00  WARN 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2026-05-17T21:54:08.798-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T21:54:08.824-04:00  INFO 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:779)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:624)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:572)
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:747)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:924)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:888)
-	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.register(RestClientEurekaHttpClient.java:64)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequestAndBody(AbstractBufferingClientHttpRequest.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
-	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
-	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:614)
-	... 24 more
-
-2026-05-17T21:54:08.824-04:00  WARN 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/MEMBRESIAS": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2026-05-17T21:54:08.851-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-17T21:54:08.824-04:00  WARN 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration failed Cannot execute request on any known server
-
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.5.jar:2.0.5]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-05-17T21:54:08.853-04:00  WARN 16484 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
-
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.5.jar:2.0.5]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-05-17T21:54:08.926-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-17T21:54:08.932-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2026-05-17T21:54:11.943-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2026-05-17T21:54:11.959-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:779)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:624)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:572)
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:747)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:924)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:888)
-	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.cancel(RestClientEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1246)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1207)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1153)
-	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:694)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequestAndBody(AbstractBufferingClientHttpRequest.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
-	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
-	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:614)
-	... 40 more
-
-2026-05-17T21:54:11.959-04:00  WARN 16484 --- [Membresias] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082": Connect to http://localhost:8761 failed: Connection refused: getsockopt
-2026-05-17T21:54:11.959-04:00 ERROR 16484 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - de-registration failedCannot execute request on any known server
-
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.5.jar:2.0.5]
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.5.jar:2.0.5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387) ~[spring-cloud-context-5.0.1.jar:5.0.1]
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134) ~[spring-cloud-context-5.0.1.jar:5.0.1]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493) ~[spring-beans-7.0.7.jar:7.0.7]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1246) ~[spring-context-7.0.7.jar:7.0.7]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1207) ~[spring-context-7.0.7.jar:7.0.7]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176) ~[spring-boot-web-server-4.0.6.jar:4.0.6]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1153) ~[spring-context-7.0.7.jar:7.0.7]
-	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147) ~[spring-boot-4.0.6.jar:4.0.6]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-4.0.6.jar:4.0.6]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-05-17T21:54:11.959-04:00  INFO 16484 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2026-05-17T22:07:09.328-04:00  INFO 13120 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Starting MembresiasApplication using Java 21.0.10 with PID 13120 (C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias\target\classes started by sebit in C:\Users\sebit\Desktop\Universidad\Programacion\Fullstack I\Membrecias)
-2026-05-17T22:07:09.335-04:00 DEBUG 13120 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-05-17T22:07:09.337-04:00  INFO 13120 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : No active profile set, falling back to 1 default profile: "default"
-2026-05-17T22:07:11.448-04:00  INFO 13120 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-17T22:07:11.826-04:00  INFO 13120 --- [Membresias] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 355 ms. Found 1 JPA repository interface.
-2026-05-17T22:07:12.326-04:00  INFO 13120 --- [Membresias] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8974baf3-0add-354a-b5d1-c099f9c3dafb
-2026-05-17T22:07:13.339-04:00  INFO 13120 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-05-17T22:07:13.394-04:00  INFO 13120 --- [Membresias] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-17T22:07:13.394-04:00  INFO 13120 --- [Membresias] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-05-17T22:07:13.678-04:00  INFO 13120 --- [Membresias] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4187 ms
-2026-05-17T22:07:14.343-04:00  INFO 13120 --- [Membresias] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-17T22:07:14.542-04:00  INFO 13120 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-05-17T22:07:16.455-04:00  INFO 13120 --- [Membresias] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-17T22:07:16.539-04:00  INFO 13120 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-17T22:07:16.980-04:00  INFO 13120 --- [Membresias] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@306c9b2c
-2026-05-17T22:07:16.985-04:00  INFO 13120 --- [Membresias] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-17T22:07:17.081-04:00  WARN 13120 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-05-17T22:07:17.091-04:00  WARN 13120 --- [Membresias] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-05-17T22:07:17.139-04:00  INFO 13120 --- [Membresias] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/membresias_db]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 5.5.5
-	Default catalog/schema: membresias_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-17T22:07:20.317-04:00  INFO 13120 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-17T22:07:20.463-04:00  INFO 13120 --- [Membresias] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T22:07:20.890-04:00  INFO 13120 --- [Membresias] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-17T22:07:21.141-04:00  INFO 13120 --- [Membresias] [main] c.M.Membresias.Service.MembresiaService  : Membresia eliminada
-2026-05-17T22:07:21.261-04:00  WARN 13120 --- [Membresias] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-17T22:07:24.692-04:00  INFO 13120 --- [Membresias] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
-2026-05-17T22:07:24.890-04:00  WARN 13120 --- [Membresias] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2026-05-17T22:07:25.125-04:00  INFO 13120 --- [Membresias] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2026-05-17T22:07:25.554-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2026-05-17T22:07:25.576-04:00  INFO 13120 --- [Membresias] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T22:07:25.654-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-17T22:07:25.654-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-17T22:07:25.656-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-17T22:07:25.656-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-17T22:07:25.658-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-17T22:07:25.663-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2026-05-17T22:07:25.665-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-17T22:07:28.064-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-17T22:07:28.067-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2026-05-17T22:07:28.072-04:00  INFO 13120 --- [Membresias] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2026-05-17T22:07:28.082-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1779070048078 with initial instances count: 0
-2026-05-17T22:07:28.091-04:00  INFO 13120 --- [Membresias] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMBRESIAS with eureka with status UP
-2026-05-17T22:07:28.093-04:00  INFO 13120 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779070048093, current=UP, previous=STARTING]
-2026-05-17T22:07:28.099-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T22:07:28.159-04:00  INFO 13120 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-05-17T22:07:28.162-04:00  INFO 13120 --- [Membresias] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
-2026-05-17T22:07:28.197-04:00  INFO 13120 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Started MembresiasApplication in 20.333 seconds (process running for 22.325)
-2026-05-17T22:07:28.645-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
-2026-05-17T22:07:29.633-04:00  INFO 13120 --- [Membresias] [main] c.M.Membresias.config.DataInitializer    : Datos cargados
-2026-05-17T22:07:58.151-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2026-05-17T22:07:58.152-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2026-05-17T22:07:58.229-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2026-05-17T22:07:58.230-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2026-05-17T22:07:58.242-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2026-05-17T22:07:58.243-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2026-05-17T22:07:58.409-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2026-05-17T22:07:58.819-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2026-05-17T22:12:25.669-04:00  INFO 13120 --- [Membresias] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-05-17T22:14:15.826-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMBRESIAS with eureka with status DOWN
-2026-05-17T22:14:15.829-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1779070455829, current=DOWN, previous=UP]
-2026-05-17T22:14:15.830-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
-2026-05-17T22:14:15.857-04:00  INFO 13120 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
-2026-05-17T22:14:15.921-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-17T22:14:15.951-04:00  INFO 13120 --- [Membresias] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-17T22:14:15.985-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-17T22:14:16.021-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-17T22:14:16.087-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-17T22:14:16.090-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2026-05-17T22:14:19.094-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2026-05-17T22:14:19.115-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - deregister  status: 200
-2026-05-17T22:14:19.116-04:00  INFO 13120 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-06-11T22:48:54.104-04:00  INFO 7712 --- [Membresias] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-11T22:48:54.195-04:00  INFO 7712 --- [Membresias] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T22:48:54.334-04:00  INFO 7712 --- [Membresias] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-11T22:48:54.505-04:00  INFO 7712 --- [Membresias] [main] c.M.Membresias.Service.MembresiaService  : Membresia eliminada
+2026-06-11T22:48:54.579-04:00  WARN 7712 --- [Membresias] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-11T22:48:55.530-04:00  INFO 7712 --- [Membresias] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-06-11T22:48:55.606-04:00  WARN 7712 --- [Membresias] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-06-11T22:48:55.650-04:00  INFO 7712 --- [Membresias] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-06-11T22:48:55.697-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-06-11T22:48:55.704-04:00  INFO 7712 --- [Membresias] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-06-11T22:48:55.723-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-06-11T22:48:55.723-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-06-11T22:48:55.724-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-06-11T22:48:55.724-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-06-11T22:48:55.724-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-06-11T22:48:55.725-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-06-11T22:48:55.725-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-06-11T22:48:56.784-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-06-11T22:48:56.786-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-06-11T22:48:56.795-04:00  INFO 7712 --- [Membresias] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-06-11T22:48:56.800-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1781232536798 with initial instances count: 0
+2026-06-11T22:48:56.806-04:00  INFO 7712 --- [Membresias] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MEMBRESIAS with eureka with status UP
+2026-06-11T22:48:56.808-04:00  INFO 7712 --- [Membresias] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1781232536808, current=UP, previous=STARTING]
+2026-06-11T22:48:56.812-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
+2026-06-11T22:48:56.846-04:00  INFO 7712 --- [Membresias] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-06-11T22:48:56.848-04:00  INFO 7712 --- [Membresias] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-06-11T22:48:56.874-04:00  INFO 7712 --- [Membresias] [main] c.M.Membresias.MembresiasApplication     : Started MembresiasApplication in 10.315 seconds (process running for 13.986)
+2026-06-11T22:48:57.096-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
+2026-06-11T22:48:57.732-04:00  INFO 7712 --- [Membresias] [main] c.M.Membresias.config.DataInitializer    : Datos cargados
+2026-06-11T22:49:26.797-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-06-11T22:49:26.798-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-06-11T22:49:26.799-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-06-11T22:49:26.800-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-06-11T22:49:26.800-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-06-11T22:49:26.800-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2026-06-11T22:49:26.801-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-06-11T22:49:26.874-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-06-11T22:51:42.679-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MEMBRESIAS with eureka with status DOWN
+2026-06-11T22:51:42.680-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1781232702680, current=DOWN, previous=UP]
+2026-06-11T22:51:42.682-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082: registering service...
+2026-06-11T22:51:42.720-04:00  INFO 7712 --- [Membresias] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - registration status: 204
+2026-06-11T22:51:42.796-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T22:51:42.837-04:00  INFO 7712 --- [Membresias] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T22:51:42.882-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T22:51:42.952-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-11T22:51:43.051-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-11T22:51:43.056-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-06-11T22:51:46.068-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-06-11T22:51:46.097-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MEMBRESIAS/LAPTOP-TLGIUAT7:Membresias:8082 - deregister  status: 200
+2026-06-11T22:51:46.097-04:00  INFO 7712 --- [Membresias] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
